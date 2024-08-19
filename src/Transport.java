@@ -7,20 +7,16 @@ public abstract class Transport implements check {
     }
 
     @Override
-    public void check() {
+    public void checkable() {
         System.out.println("Обслуживаем " + getModelName());
     }
+
     public void updateTyre() {
         for (int i = 0; i < wheelsCount; i++) {
             System.out.println("Меняем покрышку " + (i + 1));
         }
     }
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }
+
     public String getModelName() {
         return modelName;
     }

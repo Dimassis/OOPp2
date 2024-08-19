@@ -15,8 +15,8 @@ public class Bicycle extends Transport{
         field();
     }
     @Override
-    public void check() {
-        super.check();
+    public void checkable() {
+        super.checkable();
         updateTyre();
         field();
     }

@@ -1,3 +1,3 @@
 public interface check {
-    public void check();
+    public void checkable();
 }

@@ -14,9 +14,13 @@ public class Car extends Transport {
         arrived(getModelName());
         field();
     }
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
+
     @Override
-    public void check() {
-        super.check();
+    public void checkable() {
+        super.checkable();
         updateTyre();
         checkEngine();
         field();
