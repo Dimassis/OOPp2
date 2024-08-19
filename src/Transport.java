@@ -1,4 +1,4 @@
-public abstract class Transport implements check {
+public abstract class Transport implements checkable {
     private final String modelName;
     private final int wheelsCount;
     public Transport(String modelName, int wheelsCount) {
@@ -7,7 +7,7 @@ public abstract class Transport implements check {
     }
 
     @Override
-    public void checkable() {
+    public void check() {
         System.out.println("Обслуживаем " + getModelName());
     }
 

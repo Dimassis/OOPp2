@@ -19,8 +19,8 @@ public class Car extends Transport {
     }
 
     @Override
-    public void checkable() {
-        super.checkable();
+    public void check() {
+        super.check();
         updateTyre();
         checkEngine();
         field();

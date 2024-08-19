@@ -21,8 +21,8 @@ public class Truck extends Transport{
         System.out.println("Проверяем прицеп");
     }
     @Override
-    public void checkable() {
-        super.checkable();
+    public void check() {
+        super.check();
         updateTyre();
         checkEngine();
         checkTrailer();
